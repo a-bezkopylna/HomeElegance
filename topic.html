@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+    <!-- Google fonts end -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.min.css">
+    <title>Homely Elegance</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container p-0">
+            <div class="row navbar navbar-expand-lg p-0">
+                <div class="col-3 d-lg-none p-0">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class=""><svg width="26" height="18" viewBox="0 0 26 18" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 1H25M1 9H25M1 17H25" stroke="black" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </span>
+                    </button>
+                    <button class="close-nav text-white" aria-label="Close navigation" id="nav-close">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M19.3332 2.5465L17.4532 0.666504L9.99984 8.11984L2.5465 0.666504L0.666504 2.5465L8.11984 9.99984L0.666504 17.4532L2.5465 19.3332L9.99984 11.8798L17.4532 19.3332L19.3332 17.4532L11.8798 9.99984L19.3332 2.5465Z"
+                                fill="black" />
+                        </svg>
+                    </button>
+                </div>
+
+
+                <div class="col-lg-3 col-6">
+                    <div class="logo d-flex flex-column @@class align-items-center align-items-lg-start">
+        <a href="index.html">
+            <div class="logo_title">Homely Elegance</div>
+            <div class="logo_subtitle">&nbsp;magazine</div>
+        </a>
+</div>
+
+                    <!-- <div class="logo-wrapper">
+                        <img src="./img/main-logo.svg" alt="" class="img-fluid">
+                    </div> -->
+                </div>
+                <div class="col-3 d-lg-none">
+                    <ul class="mb-0">
+                        <li class="nav-item search-icon-mob d-flex justify-content-end">
+                            <div class="icon text-end" id="header_search">
+                                <a href="#">
+                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M17.125 16.7411L12.405 12.0211C13.5393 10.6595 14.1049 8.91291 13.9842 7.14483C13.8635 5.37675 13.0658 3.72326 11.757 2.52834C10.4483 1.33341 8.72922 0.689061 6.95748 0.729318C5.18574 0.769575 3.49773 1.49134 2.2446 2.74448C0.991466 3.99761 0.269697 5.68562 0.22944 7.45736C0.189183 9.2291 0.833537 10.9482 2.02846 12.2569C3.22338 13.5657 4.87687 14.3634 6.64495 14.4841C8.41303 14.6047 10.1596 14.0391 11.5213 12.9049L16.2413 17.6249L17.125 16.7411ZM1.50001 7.62489C1.50001 6.51237 1.82991 5.42483 2.44799 4.49981C3.06608 3.57478 3.94458 2.85381 4.97242 2.42807C6.00025 2.00232 7.13125 1.89093 8.22239 2.10797C9.31354 2.32501 10.3158 2.86074 11.1025 3.64741C11.8892 4.43408 12.4249 5.43636 12.6419 6.52751C12.859 7.61865 12.7476 8.74965 12.3218 9.77748C11.8961 10.8053 11.1751 11.6838 10.2501 12.3019C9.32507 12.92 8.23753 13.2499 7.12501 13.2499C5.63368 13.2482 4.2039 12.6551 3.14936 11.6005C2.09483 10.546 1.50167 9.11622 1.50001 7.62489Z"
+                                            fill="black" />
+                                    </svg>
+
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-9">
+                    <div class="collapse navbar-collapse full-screen-nav" id="navbarNav">
+
+                        <div class="row g-0 w-100 m-0">
+                            <div class="col-lg-10">
+                                <nav class="main-menu">
+                                    <ul class="nav justify-content-center flex-column flex-lg-row align-items-center flex-nowrap">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Interiors</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Outdoors</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link green renovation" href="topic.html">Renovation</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Trends</a>
+                                        </li>
+
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Wellnes</a>
+                                        </li>
+
+
+                                    </ul>
+                                </nav>
+                                <div class="mobile-nav d-lg-none">
+                                    <ul>
+                                        <li class="nav-item">
+                                            <a href="about.html" class="nav-link green about"> About Us</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link">Privacy Policy</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="contacts.html" class="nav-link">Contact Us</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 d-none d-lg-block position-relative">
+                                <nav>
+                                    <ul class="nav justify-content-end align-items-center d-flex">
+                                        <li class="nav-item">
+                                            <a class="nav-link text-transform-capitalise green about" href="about.html">About Us</a>
+                                        </li>
+                                        <li class="nav-item ">
+                                            <div class="icon" id="header_search">
+                                                <a href="javascript:void();" class="search-icon">
+                                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path
+                                                            d="M17.125 16.7411L12.405 12.0211C13.5393 10.6595 14.1049 8.91291 13.9842 7.14483C13.8635 5.37675 13.0658 3.72326 11.757 2.52834C10.4483 1.33341 8.72922 0.689061 6.95748 0.729318C5.18574 0.769575 3.49773 1.49134 2.2446 2.74448C0.991466 3.99761 0.269697 5.68562 0.22944 7.45736C0.189183 9.2291 0.833537 10.9482 2.02846 12.2569C3.22338 13.5657 4.87687 14.3634 6.64495 14.4841C8.41303 14.6047 10.1596 14.0391 11.5213 12.9049L16.2413 17.6249L17.125 16.7411ZM1.50001 7.62489C1.50001 6.51237 1.82991 5.42483 2.44799 4.49981C3.06608 3.57478 3.94458 2.85381 4.97242 2.42807C6.00025 2.00232 7.13125 1.89093 8.22239 2.10797C9.31354 2.32501 10.3158 2.86074 11.1025 3.64741C11.8892 4.43408 12.4249 5.43636 12.6419 6.52751C12.859 7.61865 12.7476 8.74965 12.3218 9.77748C11.8961 10.8053 11.1751 11.6838 10.2501 12.3019C9.32507 12.92 8.23753 13.2499 7.12501 13.2499C5.63368 13.2482 4.2039 12.6551 3.14936 11.6005C2.09483 10.546 1.50167 9.11622 1.50001 7.62489Z"
+                                                            fill="black" />
+                                                    </svg>
+
+                                                </a>
+                                                <span class="search-close">
+                                                    <svg width="14" height="15" viewBox="0 0 14 15" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path
+                                                            d="M14 1.91L12.59 0.5L7 6.09L1.41 0.5L0 1.91L5.59 7.5L0 13.09L1.41 14.5L7 8.91L12.59 14.5L14 13.09L8.41 7.5L14 1.91Z"
+                                                            fill="#2B2B2B" />
+                                                    </svg>
+
+                                                </span>
+                                            </div>
+                                        </li>
+
+                                    </ul>
+                                </nav>
+                                <div class="search-wrapper">
+                                    <div class="search-menu">
+                                        <div class="desktop-search">
+                                            <form action="">
+                                                <input type="text" placeholder="Search">
+                                                <button type="submit">
+                                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path
+                                                            d="M17.1249 16.7411L12.4049 12.0211C13.5391 10.6595 14.1047 8.91291 13.9841 7.14483C13.8634 5.37675 13.0657 3.72326 11.7569 2.52834C10.4482 1.33341 8.7291 0.689061 6.95736 0.729318C5.18562 0.769575 3.49761 1.49134 2.24448 2.74448C0.991344 3.99761 0.269575 5.68562 0.229318 7.45736C0.189061 9.2291 0.833415 10.9482 2.02834 12.2569C3.22326 13.5657 4.87675 14.3634 6.64483 14.4841C8.41291 14.6047 10.1595 14.0391 11.5211 12.9049L16.2411 17.6249L17.1249 16.7411ZM1.49989 7.62489C1.49989 6.51237 1.82979 5.42483 2.44787 4.49981C3.06596 3.57478 3.94446 2.85381 4.97229 2.42807C6.00013 2.00232 7.13113 1.89093 8.22227 2.10797C9.31341 2.32501 10.3157 2.86074 11.1024 3.64741C11.889 4.43408 12.4248 5.43636 12.6418 6.52751C12.8588 7.61865 12.7475 8.74965 12.3217 9.77748C11.896 10.8053 11.175 11.6838 10.25 12.3019C9.32495 12.92 8.23741 13.2499 7.12489 13.2499C5.63355 13.2482 4.20377 12.6551 3.14924 11.6005C2.09471 10.546 1.50154 9.11622 1.49989 7.62489Z"
+                                                            fill="black" />
+                                                    </svg>
+
+                                                </button>
+                                               
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mobile-search-wrapper">
+                        <div class="mobile-search-wrapper__menu">
+                            <form action=""  >
+                                <input type="text" class="w-100" placeholder="Search">
+                                <div class="search-icon">
+                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M17.1249 16.2411L12.4049 11.5211C13.5391 10.1595 14.1047 8.41291 13.9841 6.64483C13.8634 4.87675 13.0657 3.22326 11.7569 2.02834C10.4482 0.833415 8.7291 0.189061 6.95736 0.229318C5.18562 0.269575 3.49761 0.991344 2.24448 2.24448C0.991344 3.49761 0.269575 5.18562 0.229318 6.95736C0.189061 8.7291 0.833415 10.4482 2.02834 11.7569C3.22326 13.0657 4.87675 13.8634 6.64483 13.9841C8.41291 14.1047 10.1595 13.5391 11.5211 12.4049L16.2411 17.1249L17.1249 16.2411ZM1.49989 7.12489C1.49989 6.01237 1.82979 4.92483 2.44787 3.99981C3.06596 3.07478 3.94446 2.35381 4.97229 1.92807C6.00013 1.50232 7.13113 1.39093 8.22227 1.60797C9.31341 1.82501 10.3157 2.36074 11.1024 3.14741C11.889 3.93408 12.4248 4.93636 12.6418 6.02751C12.8588 7.11865 12.7475 8.24965 12.3217 9.27748C11.896 10.3053 11.175 11.1838 10.25 11.8019C9.32495 12.42 8.23741 12.7499 7.12489 12.7499C5.63355 12.7482 4.20377 12.1551 3.14924 11.1005C2.09471 10.046 1.50154 8.61622 1.49989 7.12489Z"
+                                            fill="black" />
+                                    </svg>
+
+                                </div>
+                            </form>
+                            <div class="recent-searches">
+                                <div class="text-disabled">Recent searches</div>
+                                <ul>
+                                    <li>
+                                        <div class="search-item">
+                                            <div class="icon">
+                                                <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M17.1249 16.2411L12.4049 11.5211C13.5391 10.1595 14.1047 8.41291 13.9841 6.64483C13.8634 4.87675 13.0657 3.22326 11.7569 2.02834C10.4482 0.833415 8.7291 0.189061 6.95736 0.229318C5.18562 0.269575 3.49761 0.991344 2.24448 2.24448C0.991344 3.49761 0.269575 5.18562 0.229318 6.95736C0.189061 8.7291 0.833415 10.4482 2.02834 11.7569C3.22326 13.0657 4.87675 13.8634 6.64483 13.9841C8.41291 14.1047 10.1595 13.5391 11.5211 12.4049L16.2411 17.1249L17.1249 16.2411ZM1.49989 7.12489C1.49989 6.01237 1.82979 4.92483 2.44787 3.99981C3.06596 3.07478 3.94446 2.35381 4.97229 1.92807C6.00013 1.50232 7.13113 1.39093 8.22227 1.60797C9.31341 1.82501 10.3157 2.36074 11.1024 3.14741C11.889 3.93408 12.4248 4.93636 12.6418 6.02751C12.8588 7.11865 12.7475 8.24965 12.3217 9.27748C11.896 10.3053 11.175 11.1838 10.25 11.8019C9.32495 12.42 8.23741 12.7499 7.12489 12.7499C5.63355 12.7482 4.20377 12.1551 3.14924 11.1005C2.09471 10.046 1.50154 8.61622 1.49989 7.12489Z"
+                                                        fill="black" />
+                                                </svg>
+                                            </div>
+                                            <div class="search-text">
+                                                Oregon Trail
+                                            </div>
+                                            
+                                        </div>
+                                        <div class="search-item-close">
+                                            <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M14 1.41L12.59 0L7 5.59L1.41 0L0 1.41L5.59 7L0 12.59L1.41 14L7 8.41L12.59 14L14 12.59L8.41 7L14 1.41Z"
+                                                    fill="#2B2B2B" />
+                                            </svg>
+
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="search-item">
+                                            <div class="icon">
+                                                <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M17.1249 16.2411L12.4049 11.5211C13.5391 10.1595 14.1047 8.41291 13.9841 6.64483C13.8634 4.87675 13.0657 3.22326 11.7569 2.02834C10.4482 0.833415 8.7291 0.189061 6.95736 0.229318C5.18562 0.269575 3.49761 0.991344 2.24448 2.24448C0.991344 3.49761 0.269575 5.18562 0.229318 6.95736C0.189061 8.7291 0.833415 10.4482 2.02834 11.7569C3.22326 13.0657 4.87675 13.8634 6.64483 13.9841C8.41291 14.1047 10.1595 13.5391 11.5211 12.4049L16.2411 17.1249L17.1249 16.2411ZM1.49989 7.12489C1.49989 6.01237 1.82979 4.92483 2.44787 3.99981C3.06596 3.07478 3.94446 2.35381 4.97229 1.92807C6.00013 1.50232 7.13113 1.39093 8.22227 1.60797C9.31341 1.82501 10.3157 2.36074 11.1024 3.14741C11.889 3.93408 12.4248 4.93636 12.6418 6.02751C12.8588 7.11865 12.7475 8.24965 12.3217 9.27748C11.896 10.3053 11.175 11.1838 10.25 11.8019C9.32495 12.42 8.23741 12.7499 7.12489 12.7499C5.63355 12.7482 4.20377 12.1551 3.14924 11.1005C2.09471 10.046 1.50154 8.61622 1.49989 7.12489Z"
+                                                        fill="black" />
+                                                </svg>
+                                            </div>
+                                            <div class="search-text">
+                                                Slickrock Bike Trail
+                                            </div>
+                                            
+                                        </div>
+                                        <div class="search-item-close">
+                                            <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M14 1.41L12.59 0L7 5.59L1.41 0L0 1.41L5.59 7L0 12.59L1.41 14L7 8.41L12.59 14L14 12.59L8.41 7L14 1.41Z"
+                                                    fill="#2B2B2B" />
+                                            </svg>
+
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="search-item">
+                                            <div class="icon">
+                                                <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M17.1249 16.2411L12.4049 11.5211C13.5391 10.1595 14.1047 8.41291 13.9841 6.64483C13.8634 4.87675 13.0657 3.22326 11.7569 2.02834C10.4482 0.833415 8.7291 0.189061 6.95736 0.229318C5.18562 0.269575 3.49761 0.991344 2.24448 2.24448C0.991344 3.49761 0.269575 5.18562 0.229318 6.95736C0.189061 8.7291 0.833415 10.4482 2.02834 11.7569C3.22326 13.0657 4.87675 13.8634 6.64483 13.9841C8.41291 14.1047 10.1595 13.5391 11.5211 12.4049L16.2411 17.1249L17.1249 16.2411ZM1.49989 7.12489C1.49989 6.01237 1.82979 4.92483 2.44787 3.99981C3.06596 3.07478 3.94446 2.35381 4.97229 1.92807C6.00013 1.50232 7.13113 1.39093 8.22227 1.60797C9.31341 1.82501 10.3157 2.36074 11.1024 3.14741C11.889 3.93408 12.4248 4.93636 12.6418 6.02751C12.8588 7.11865 12.7475 8.24965 12.3217 9.27748C11.896 10.3053 11.175 11.1838 10.25 11.8019C9.32495 12.42 8.23741 12.7499 7.12489 12.7499C5.63355 12.7482 4.20377 12.1551 3.14924 11.1005C2.09471 10.046 1.50154 8.61622 1.49989 7.12489Z"
+                                                        fill="black" />
+                                                </svg>
+                                            </div>
+                                            <div class="search-text">
+                                                Vermont
+                                            </div>
+                                            
+                                        </div>
+                                        <div class="search-item-close">
+                                            <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M14 1.41L12.59 0L7 5.59L1.41 0L0 1.41L5.59 7L0 12.59L1.41 14L7 8.41L12.59 14L14 12.59L8.41 7L14 1.41Z"
+                                                    fill="#2B2B2B" />
+                                            </svg>
+
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="search-item">
+                                            <div class="icon">
+                                                <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M17.1249 16.2411L12.4049 11.5211C13.5391 10.1595 14.1047 8.41291 13.9841 6.64483C13.8634 4.87675 13.0657 3.22326 11.7569 2.02834C10.4482 0.833415 8.7291 0.189061 6.95736 0.229318C5.18562 0.269575 3.49761 0.991344 2.24448 2.24448C0.991344 3.49761 0.269575 5.18562 0.229318 6.95736C0.189061 8.7291 0.833415 10.4482 2.02834 11.7569C3.22326 13.0657 4.87675 13.8634 6.64483 13.9841C8.41291 14.1047 10.1595 13.5391 11.5211 12.4049L16.2411 17.1249L17.1249 16.2411ZM1.49989 7.12489C1.49989 6.01237 1.82979 4.92483 2.44787 3.99981C3.06596 3.07478 3.94446 2.35381 4.97229 1.92807C6.00013 1.50232 7.13113 1.39093 8.22227 1.60797C9.31341 1.82501 10.3157 2.36074 11.1024 3.14741C11.889 3.93408 12.4248 4.93636 12.6418 6.02751C12.8588 7.11865 12.7475 8.24965 12.3217 9.27748C11.896 10.3053 11.175 11.1838 10.25 11.8019C9.32495 12.42 8.23741 12.7499 7.12489 12.7499C5.63355 12.7482 4.20377 12.1551 3.14924 11.1005C2.09471 10.046 1.50154 8.61622 1.49989 7.12489Z"
+                                                        fill="black" />
+                                                </svg>
+                                            </div>
+                                            <div class="search-text">
+                                                Grand Canyon
+                                            </div>
+                                            
+                                        </div>
+                                        <div class="search-item-close">
+                                            <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M14 1.41L12.59 0L7 5.59L1.41 0L0 1.41L5.59 7L0 12.59L1.41 14L7 8.41L12.59 14L14 12.59L8.41 7L14 1.41Z"
+                                                    fill="#2B2B2B" />
+                                            </svg>
+
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="search-item">
+                                            <div class="icon">
+                                                <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M17.1249 16.2411L12.4049 11.5211C13.5391 10.1595 14.1047 8.41291 13.9841 6.64483C13.8634 4.87675 13.0657 3.22326 11.7569 2.02834C10.4482 0.833415 8.7291 0.189061 6.95736 0.229318C5.18562 0.269575 3.49761 0.991344 2.24448 2.24448C0.991344 3.49761 0.269575 5.18562 0.229318 6.95736C0.189061 8.7291 0.833415 10.4482 2.02834 11.7569C3.22326 13.0657 4.87675 13.8634 6.64483 13.9841C8.41291 14.1047 10.1595 13.5391 11.5211 12.4049L16.2411 17.1249L17.1249 16.2411ZM1.49989 7.12489C1.49989 6.01237 1.82979 4.92483 2.44787 3.99981C3.06596 3.07478 3.94446 2.35381 4.97229 1.92807C6.00013 1.50232 7.13113 1.39093 8.22227 1.60797C9.31341 1.82501 10.3157 2.36074 11.1024 3.14741C11.889 3.93408 12.4248 4.93636 12.6418 6.02751C12.8588 7.11865 12.7475 8.24965 12.3217 9.27748C11.896 10.3053 11.175 11.1838 10.25 11.8019C9.32495 12.42 8.23741 12.7499 7.12489 12.7499C5.63355 12.7482 4.20377 12.1551 3.14924 11.1005C2.09471 10.046 1.50154 8.61622 1.49989 7.12489Z"
+                                                        fill="black" />
+                                                </svg>
+                                            </div>
+                                            <div class="search-text">
+                                                Lake Huron
+                                            </div>
+                                            
+                                        </div>
+                                        <div class="search-item-close">
+                                            <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M14 1.41L12.59 0L7 5.59L1.41 0L0 1.41L5.59 7L0 12.59L1.41 14L7 8.41L12.59 14L14 12.59L8.41 7L14 1.41Z"
+                                                    fill="#2B2B2B" />
+                                            </svg>
+
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+        </div>
+    </header>
+<main id="topics">
+    <section class="topics">
+        <div class="container-lg">
+            <div class="row m-0">
+                <div class="col-lg-7 mob-center pe-lg-5">
+                    <h2 class="px-3 px-sm-0">Renovation</h2>
+                    <div class="topics">
+                        <div class="topics__item mt-40 mt-mob-24">
+                            <div class="row align-items-center">
+                                <div class="col-12">
+                                    <a href="#">
+                                        <div class="topics__image">
+                                            <img src="./img/topic1.png" alt="" class="w-100">
+                                        </div>
+                                    </a>
+
+                                </div>
+                                <div class="col-12">
+                                    <div class="topics__content mt-3">
+                                        <div class="badge badge-category">Rennovation</div>
+                                        <a href="#">
+                                            <h3 class="topics__title mt-2">Meet the kitchen appliance chameleons
+                                                that adapt to fit your colour scheme</h3>
+                                        </a>
+                                        <div class="author d-flex mt-2">
+                                            <div class="author__avatar">
+                                                <img src="./img/avatar2.png" alt="" class="img-fluid">
+                                            </div>
+                                            <div class="author_texts">
+                                                <div class="author__name">
+                                                    Lina Hicks
+                                                </div>
+                                                <div class="author__date">
+                                                    02 december 2022
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="topics__item mt-50">
+                            <div class="row align-items-center">
+                                <div class="col-12">
+                                    <a href="#">
+                                        <div class="topics__image">
+                                            <img src="./img/topic2.png" alt="" class="w-100">
+                                        </div>
+                                    </a>
+
+                                </div>
+                                <div class="col-12">
+                                    <div class="topics__content mt-3">
+                                        <div class="badge badge-category">Rennovation</div>
+                                        <a href="#">
+                                            <h3 class="topics__title mt-2">6 outdoor fridges that are made for
+                                                backyard soirees</h3>
+                                        </a>
+                                        <div class="author d-flex mt-2">
+                                            <div class="author__avatar">
+                                                <img src="./img/avatar2.png" alt="" class="img-fluid">
+                                            </div>
+                                            <div class="author_texts">
+                                                <div class="author__name">
+                                                    Lina Hicks
+                                                </div>
+                                                <div class="author__date">
+                                                    02 december 2022
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="topics__item mt-50">
+                            <div class="row align-items-center">
+                                <div class="col-12">
+                                    <a href="#">
+                                        <div class="topics__image">
+                                            <img src="./img/topic3.png" alt="" class="w-100">
+                                        </div>
+                                    </a>
+
+                                </div>
+                                <div class="col-12">
+                                    <div class="topics__content mt-3">
+                                        <div class="badge badge-category">Rennovation</div>
+                                        <a href="#">
+                                            <h3 class="topics__title mt-2">6 outdoor fridges that are made for
+                                                backyard soirees</h3>
+                                        </a>
+                                        <div class="author d-flex mt-2">
+                                            <div class="author__avatar">
+                                                <img src="./img/avatar2.png" alt="" class="img-fluid">
+                                            </div>
+                                            <div class="author_texts">
+                                                <div class="author__name">
+                                                    Lina Hicks
+                                                </div>
+                                                <div class="author__date">
+                                                    02 december 2022
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="topics__item mt-50">
+                            <div class="row align-items-center">
+                                <div class="col-12">
+                                    <a href="#">
+                                        <div class="topics__image">
+                                            <img src="./img/topic4.png" alt="" class="w-100">
+                                        </div>
+                                    </a>
+
+                                </div>
+                                <div class="col-12">
+                                    <div class="topics__content mt-3">
+                                        <div class="badge badge-category">Rennovation</div>
+                                        <a href="#">
+                                            <h3 class="topics__title mt-2">6 outdoor fridges that are made for
+                                                backyard soirees</h3>
+                                        </a>
+                                        <div class="author d-flex mt2">
+                                            <div class="author__avatar">
+                                                <img src="./img/avatar2.png" alt="" class="img-fluid">
+                                            </div>
+                                            <div class="author_texts">
+                                                <div class="author__name">
+                                                    Lina Hicks
+                                                </div>
+                                                <div class="author__date">
+                                                    02 december 2022
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <a href="#" class="badge-outline badge-btn viewmore">
+                            View more
+
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-5  bg-mob-grey">
+                    <aside>
+                        <div class="mob-center">
+                            <h2 class="px-3 px-sm-0">Latest posts</h2>
+                            <div class="trends mt-40">
+            <div class="trends__item row p-0">
+                <div class="col-5">
+                    <a href="#">
+                        <div class="trends__image">
+                            <img src="./img/trends-img.png" alt="" class="w-100">
+                        </div>
+                    </a>
+
+                </div>
+                <div class="col-7">
+                    <div
+                        class="trends__content d-flex flex-column justify-content-center justify-content-lg-between h-100 gap-3 gap-lg-0">
+                        <div class="trend__texts">
+                            <div class="badge badge-category d-none d-xxl-block">Rennovation</div>
+                            <a href="#">
+                                <h3 class="trends__title">The Best Outdoor Furniture for Small
+                                    Spaces
+                                </h3>
+                            </a>
+
+                        </div>
+
+                        <div class="author d-none d-sm-flex ">
+                            <div class="author__avatar">
+                                <img src="./img/avatar2.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="author_texts">
+                                <div class="author__name">
+                                    Lina Hicks
+                                </div>
+                                <div class="author__date">
+                                    02 december 2022
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="trends__item row p-0 mt-5">
+                <div class="col-5">
+                    <a href="#">
+                        <div class="trends__image">
+                            <img src="./img/trends-img.png" alt="" class="w-100">
+                        </div>
+                    </a>
+
+                </div>
+                <div class="col-7">
+                    <div
+                        class="trends__content d-flex flex-column justify-content-center justify-content-lg-between h-100 gap-3 gap-lg-0">
+                        <div class="trend__texts">
+                            <div class="badge badge-category d-none d-xxl-block">Rennovation</div>
+                            <a href="#">
+                                <h3 class="trends__title">The Best Outdoor Furniture for Small
+                                    Spaces
+                                </h3>
+                            </a>
+                        </div>
+
+                        <div class="author d-none d-sm-flex ">
+                            <div class="author__avatar">
+                                <img src="./img/avatar2.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="author_texts">
+                                <div class="author__name">
+                                    Lina Hicks
+                                </div>
+                                <div class="author__date">
+                                    02 december 2022
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="trends__item row p-0 mt-5">
+                <div class="col-5">
+                    <a href="#">
+                        <div class="trends__image">
+                            <img src="./img/trends-img.png" alt="" class="w-100">
+                        </div>
+                    </a>
+
+                </div>
+                <div class="col-7">
+                    <div
+                        class="trends__content d-flex flex-column justify-content-center justify-content-lg-between h-100 gap-3 gap-lg-0">
+                        <div class="trend__texts">
+                            <div class="badge badge-category d-none d-xxl-block">Rennovation</div>
+                            <a href="#">
+                                <h3 class="trends__title">The Best Outdoor Furniture for Small
+                                    Spaces
+                                </h3>
+                            </a>
+
+                        </div>
+
+                        <div class="author d-none d-sm-flex ">
+                            <div class="author__avatar">
+                                <img src="./img/avatar2.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="author_texts">
+                                <div class="author__name">
+                                    Lina Hicks
+                                </div>
+                                <div class="author__date">
+                                    02 december 2022
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+        </div>
+                        </div>
+                    </aside>
+
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <section class="interiors">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-end interiors__section-title px-3 px-sm-0">
+                <h2>Other topics</h2>
+            </div>
+            <div class="interiors mt-40">
+    <div class="interiors__item">
+        <div class="row align-items-center p-0">
+            <div class="col-lg-6 m-0">
+                <a href="#">
+                    <div class="interiors__image">
+                        <img src="./img/interiors1.png" alt="" class="w-100">
+                    </div>
+                </a>
+
+            </div>
+            <div class="col-lg-6">
+                <div class="interiors__content">
+                    <div class="badge badge-category">Rennovation</div>
+                    <a href="#">
+                        <h3 class="interiors__title mt-3">The Best Outdoor Furniture for Small Spaces</h3>
+                    </a>
+
+                    <div class="author d-flex mt-2">
+                        <div class="author__avatar">
+                            <img src="./img/avatar2.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="author_texts">
+                            <div class="author__name">
+                                Lina Hicks
+                            </div>
+                            <div class="author__date">
+                                02 december 2022
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="interiors__item">
+        <div class="row align-items-center p-0">
+            <div class="col-lg-6 m-0">
+                <a href="#">
+                    <div class="interiors__image">
+                        <img src="./img/interiors2.png" alt="" class="w-100">
+                    </div>
+                </a>
+
+            </div>
+            <div class="col-lg-6">
+                <div class="interiors__content">
+                    <div class="badge badge-category">Rennovation</div>
+                    <a href="#">
+                        <h3 class="interiors__title mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit.
+                        </h3>
+                    </a>
+
+                    <div class="author d-flex mt-2">
+                        <div class="author__avatar">
+                            <img src="./img/avatar2.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="author_texts">
+                            <div class="author__name">
+                                Lina Hicks
+                            </div>
+                            <div class="author__date">
+                                02 december 2022
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="interiors__item">
+        <div class="row align-items-center p-0">
+            <div class="col-lg-6 m-0">
+                <a href="#">
+                    <div class="interiors__image">
+                        <img src="./img/interiors3.png" alt="" class="w-100">
+                    </div>
+                </a>
+
+            </div>
+            <div class="col-lg-6">
+                <div class="interiors__content">
+                    <div class="badge badge-category">Rennovation</div>
+                    <a href="#">
+                        <h3 class="interiors__title mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit.
+                        </h3>
+                    </a>
+
+                    <div class="author d-flex mt-2">
+                        <div class="author__avatar">
+                            <img src="./img/avatar2.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="author_texts">
+                            <div class="author__name">
+                                Lina Hicks
+                            </div>
+                            <div class="author__date">
+                                02 december 2022
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        </div>
+    </section>
+</main>
+
+
+
+<footer>
+    <div class="container">
+        <div class="row justify-content-between footer-nav m-0">
+            <div class="col-lg-3">
+                <div class="logo d-flex flex-column white align-items-center align-items-lg-start">
+        <a href="index.html">
+            <div class="logo_title">Homely Elegance</div>
+            <div class="logo_subtitle">&nbsp;magazine</div>
+        </a>
+</div>
+
+            </div>
+            <div class="col-lg-9">
+                <nav>
+                    <ul>
+                        <li><a href="about.html">About us</a></li>
+                        <li><a href="">PRIVACY POLICY</a></li>
+                        <li><a href="contacts.html">CONTACT US</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="copyright text-white">Copyright © 2024 All rights reserved</div>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js
+"></script>
+<script src="./js/jquery.min.js"></script>
+<script src="./js/splide.js"></script>
+<script src="./js/script.min.js"></script>

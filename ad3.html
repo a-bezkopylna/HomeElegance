@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+    <!-- Google fonts end -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.min.css">
+    <title>Homely Elegance</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container p-0">
+            <div class="row navbar navbar-expand-lg p-0">
+                <div class="col-3 d-lg-none p-0">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class=""><svg width="26" height="18" viewBox="0 0 26 18" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 1H25M1 9H25M1 17H25" stroke="black" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </span>
+                    </button>
+                    <button class="close-nav text-white" aria-label="Close navigation" id="nav-close">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M19.3332 2.5465L17.4532 0.666504L9.99984 8.11984L2.5465 0.666504L0.666504 2.5465L8.11984 9.99984L0.666504 17.4532L2.5465 19.3332L9.99984 11.8798L17.4532 19.3332L19.3332 17.4532L11.8798 9.99984L19.3332 2.5465Z"
+                                fill="black" />
+                        </svg>
+                    </button>
+                </div>
+
+
+                <div class="col-lg-3 col-6">
+                    <div class="logo d-flex flex-column @@class align-items-center align-items-lg-start">
+        <a href="index.html">
+            <div class="logo_title">Homely Elegance</div>
+            <div class="logo_subtitle">&nbsp;magazine</div>
+        </a>
+</div>
+
+                    <!-- <div class="logo-wrapper">
+                        <img src="./img/main-logo.svg" alt="" class="img-fluid">
+                    </div> -->
+                </div>
+                <div class="col-3 d-lg-none">
+                    <ul class="mb-0">
+                        <li class="nav-item search-icon-mob d-flex justify-content-end">
+                            <div class="icon text-end" id="header_search">
+                                <a href="#">
+                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M17.125 16.7411L12.405 12.0211C13.5393 10.6595 14.1049 8.91291 13.9842 7.14483C13.8635 5.37675 13.0658 3.72326 11.757 2.52834C10.4483 1.33341 8.72922 0.689061 6.95748 0.729318C5.18574 0.769575 3.49773 1.49134 2.2446 2.74448C0.991466 3.99761 0.269697 5.68562 0.22944 7.45736C0.189183 9.2291 0.833537 10.9482 2.02846 12.2569C3.22338 13.5657 4.87687 14.3634 6.64495 14.4841C8.41303 14.6047 10.1596 14.0391 11.5213 12.9049L16.2413 17.6249L17.125 16.7411ZM1.50001 7.62489C1.50001 6.51237 1.82991 5.42483 2.44799 4.49981C3.06608 3.57478 3.94458 2.85381 4.97242 2.42807C6.00025 2.00232 7.13125 1.89093 8.22239 2.10797C9.31354 2.32501 10.3158 2.86074 11.1025 3.64741C11.8892 4.43408 12.4249 5.43636 12.6419 6.52751C12.859 7.61865 12.7476 8.74965 12.3218 9.77748C11.8961 10.8053 11.1751 11.6838 10.2501 12.3019C9.32507 12.92 8.23753 13.2499 7.12501 13.2499C5.63368 13.2482 4.2039 12.6551 3.14936 11.6005C2.09483 10.546 1.50167 9.11622 1.50001 7.62489Z"
+                                            fill="black" />
+                                    </svg>
+
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-9">
+                    <div class="collapse navbar-collapse full-screen-nav" id="navbarNav">
+
+                        <div class="row g-0 w-100 m-0">
+                            <div class="col-lg-10">
+                                <nav class="main-menu">
+                                    <ul class="nav justify-content-center flex-column flex-lg-row align-items-center flex-nowrap">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Interiors</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Outdoors</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link none renovation" href="topic.html">Renovation</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Trends</a>
+                                        </li>
+
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Wellnes</a>
+                                        </li>
+
+
+                                    </ul>
+                                </nav>
+                                <div class="mobile-nav d-lg-none">
+                                    <ul>
+                                        <li class="nav-item">
+                                            <a href="about.html" class="nav-link none about"> About Us</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link">Privacy Policy</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="contacts.html" class="nav-link">Contact Us</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 d-none d-lg-block position-relative">
+                                <nav>
+                                    <ul class="nav justify-content-end align-items-center d-flex">
+                                        <li class="nav-item">
+                                            <a class="nav-link text-transform-capitalise none about" href="about.html">About Us</a>
+                                        </li>
+                                        <li class="nav-item ">
+                                            <div class="icon" id="header_search">
+                                                <a href="javascript:void();" class="search-icon">
+                                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path
+                                                            d="M17.125 16.7411L12.405 12.0211C13.5393 10.6595 14.1049 8.91291 13.9842 7.14483C13.8635 5.37675 13.0658 3.72326 11.757 2.52834C10.4483 1.33341 8.72922 0.689061 6.95748 0.729318C5.18574 0.769575 3.49773 1.49134 2.2446 2.74448C0.991466 3.99761 0.269697 5.68562 0.22944 7.45736C0.189183 9.2291 0.833537 10.9482 2.02846 12.2569C3.22338 13.5657 4.87687 14.3634 6.64495 14.4841C8.41303 14.6047 10.1596 14.0391 11.5213 12.9049L16.2413 17.6249L17.125 16.7411ZM1.50001 7.62489C1.50001 6.51237 1.82991 5.42483 2.44799 4.49981C3.06608 3.57478 3.94458 2.85381 4.97242 2.42807C6.00025 2.00232 7.13125 1.89093 8.22239 2.10797C9.31354 2.32501 10.3158 2.86074 11.1025 3.64741C11.8892 4.43408 12.4249 5.43636 12.6419 6.52751C12.859 7.61865 12.7476 8.74965 12.3218 9.77748C11.8961 10.8053 11.1751 11.6838 10.2501 12.3019C9.32507 12.92 8.23753 13.2499 7.12501 13.2499C5.63368 13.2482 4.2039 12.6551 3.14936 11.6005C2.09483 10.546 1.50167 9.11622 1.50001 7.62489Z"
+                                                            fill="black" />
+                                                    </svg>
+
+                                                </a>
+                                                <span class="search-close">
+                                                    <svg width="14" height="15" viewBox="0 0 14 15" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path
+                                                            d="M14 1.91L12.59 0.5L7 6.09L1.41 0.5L0 1.91L5.59 7.5L0 13.09L1.41 14.5L7 8.91L12.59 14.5L14 13.09L8.41 7.5L14 1.91Z"
+                                                            fill="#2B2B2B" />
+                                                    </svg>
+
+                                                </span>
+                                            </div>
+                                        </li>
+
+                                    </ul>
+                                </nav>
+                                <div class="search-wrapper">
+                                    <div class="search-menu">
+                                        <div class="desktop-search">
+                                            <form action="">
+                                                <input type="text" placeholder="Search">
+                                                <button type="submit">
+                                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path
+                                                            d="M17.1249 16.7411L12.4049 12.0211C13.5391 10.6595 14.1047 8.91291 13.9841 7.14483C13.8634 5.37675 13.0657 3.72326 11.7569 2.52834C10.4482 1.33341 8.7291 0.689061 6.95736 0.729318C5.18562 0.769575 3.49761 1.49134 2.24448 2.74448C0.991344 3.99761 0.269575 5.68562 0.229318 7.45736C0.189061 9.2291 0.833415 10.9482 2.02834 12.2569C3.22326 13.5657 4.87675 14.3634 6.64483 14.4841C8.41291 14.6047 10.1595 14.0391 11.5211 12.9049L16.2411 17.6249L17.1249 16.7411ZM1.49989 7.62489C1.49989 6.51237 1.82979 5.42483 2.44787 4.49981C3.06596 3.57478 3.94446 2.85381 4.97229 2.42807C6.00013 2.00232 7.13113 1.89093 8.22227 2.10797C9.31341 2.32501 10.3157 2.86074 11.1024 3.64741C11.889 4.43408 12.4248 5.43636 12.6418 6.52751C12.8588 7.61865 12.7475 8.74965 12.3217 9.77748C11.896 10.8053 11.175 11.6838 10.25 12.3019C9.32495 12.92 8.23741 13.2499 7.12489 13.2499C5.63355 13.2482 4.20377 12.6551 3.14924 11.6005C2.09471 10.546 1.50154 9.11622 1.49989 7.62489Z"
+                                                            fill="black" />
+                                                    </svg>
+
+                                                </button>
+                                               
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mobile-search-wrapper">
+                        <div class="mobile-search-wrapper__menu">
+                            <form action=""  >
+                                <input type="text" class="w-100" placeholder="Search">
+                                <div class="search-icon">
+                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M17.1249 16.2411L12.4049 11.5211C13.5391 10.1595 14.1047 8.41291 13.9841 6.64483C13.8634 4.87675 13.0657 3.22326 11.7569 2.02834C10.4482 0.833415 8.7291 0.189061 6.95736 0.229318C5.18562 0.269575 3.49761 0.991344 2.24448 2.24448C0.991344 3.49761 0.269575 5.18562 0.229318 6.95736C0.189061 8.7291 0.833415 10.4482 2.02834 11.7569C3.22326 13.0657 4.87675 13.8634 6.64483 13.9841C8.41291 14.1047 10.1595 13.5391 11.5211 12.4049L16.2411 17.1249L17.1249 16.2411ZM1.49989 7.12489C1.49989 6.01237 1.82979 4.92483 2.44787 3.99981C3.06596 3.07478 3.94446 2.35381 4.97229 1.92807C6.00013 1.50232 7.13113 1.39093 8.22227 1.60797C9.31341 1.82501 10.3157 2.36074 11.1024 3.14741C11.889 3.93408 12.4248 4.93636 12.6418 6.02751C12.8588 7.11865 12.7475 8.24965 12.3217 9.27748C11.896 10.3053 11.175 11.1838 10.25 11.8019C9.32495 12.42 8.23741 12.7499 7.12489 12.7499C5.63355 12.7482 4.20377 12.1551 3.14924 11.1005C2.09471 10.046 1.50154 8.61622 1.49989 7.12489Z"
+                                            fill="black" />
+                                    </svg>
+
+                                </div>
+                            </form>
+                            <div class="recent-searches">
+                                <div class="text-disabled">Recent searches</div>
+                                <ul>
+                                    <li>
+                                        <div class="search-item">
+                                            <div class="icon">
+                                                <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M17.1249 16.2411L12.4049 11.5211C13.5391 10.1595 14.1047 8.41291 13.9841 6.64483C13.8634 4.87675 13.0657 3.22326 11.7569 2.02834C10.4482 0.833415 8.7291 0.189061 6.95736 0.229318C5.18562 0.269575 3.49761 0.991344 2.24448 2.24448C0.991344 3.49761 0.269575 5.18562 0.229318 6.95736C0.189061 8.7291 0.833415 10.4482 2.02834 11.7569C3.22326 13.0657 4.87675 13.8634 6.64483 13.9841C8.41291 14.1047 10.1595 13.5391 11.5211 12.4049L16.2411 17.1249L17.1249 16.2411ZM1.49989 7.12489C1.49989 6.01237 1.82979 4.92483 2.44787 3.99981C3.06596 3.07478 3.94446 2.35381 4.97229 1.92807C6.00013 1.50232 7.13113 1.39093 8.22227 1.60797C9.31341 1.82501 10.3157 2.36074 11.1024 3.14741C11.889 3.93408 12.4248 4.93636 12.6418 6.02751C12.8588 7.11865 12.7475 8.24965 12.3217 9.27748C11.896 10.3053 11.175 11.1838 10.25 11.8019C9.32495 12.42 8.23741 12.7499 7.12489 12.7499C5.63355 12.7482 4.20377 12.1551 3.14924 11.1005C2.09471 10.046 1.50154 8.61622 1.49989 7.12489Z"
+                                                        fill="black" />
+                                                </svg>
+                                            </div>
+                                            <div class="search-text">
+                                                Oregon Trail
+                                            </div>
+                                            
+                                        </div>
+                                        <div class="search-item-close">
+                                            <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M14 1.41L12.59 0L7 5.59L1.41 0L0 1.41L5.59 7L0 12.59L1.41 14L7 8.41L12.59 14L14 12.59L8.41 7L14 1.41Z"
+                                                    fill="#2B2B2B" />
+                                            </svg>
+
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="search-item">
+                                            <div class="icon">
+                                                <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M17.1249 16.2411L12.4049 11.5211C13.5391 10.1595 14.1047 8.41291 13.9841 6.64483C13.8634 4.87675 13.0657 3.22326 11.7569 2.02834C10.4482 0.833415 8.7291 0.189061 6.95736 0.229318C5.18562 0.269575 3.49761 0.991344 2.24448 2.24448C0.991344 3.49761 0.269575 5.18562 0.229318 6.95736C0.189061 8.7291 0.833415 10.4482 2.02834 11.7569C3.22326 13.0657 4.87675 13.8634 6.64483 13.9841C8.41291 14.1047 10.1595 13.5391 11.5211 12.4049L16.2411 17.1249L17.1249 16.2411ZM1.49989 7.12489C1.49989 6.01237 1.82979 4.92483 2.44787 3.99981C3.06596 3.07478 3.94446 2.35381 4.97229 1.92807C6.00013 1.50232 7.13113 1.39093 8.22227 1.60797C9.31341 1.82501 10.3157 2.36074 11.1024 3.14741C11.889 3.93408 12.4248 4.93636 12.6418 6.02751C12.8588 7.11865 12.7475 8.24965 12.3217 9.27748C11.896 10.3053 11.175 11.1838 10.25 11.8019C9.32495 12.42 8.23741 12.7499 7.12489 12.7499C5.63355 12.7482 4.20377 12.1551 3.14924 11.1005C2.09471 10.046 1.50154 8.61622 1.49989 7.12489Z"
+                                                        fill="black" />
+                                                </svg>
+                                            </div>
+                                            <div class="search-text">
+                                                Slickrock Bike Trail
+                                            </div>
+                                            
+                                        </div>
+                                        <div class="search-item-close">
+                                            <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M14 1.41L12.59 0L7 5.59L1.41 0L0 1.41L5.59 7L0 12.59L1.41 14L7 8.41L12.59 14L14 12.59L8.41 7L14 1.41Z"
+                                                    fill="#2B2B2B" />
+                                            </svg>
+
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="search-item">
+                                            <div class="icon">
+                                                <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M17.1249 16.2411L12.4049 11.5211C13.5391 10.1595 14.1047 8.41291 13.9841 6.64483C13.8634 4.87675 13.0657 3.22326 11.7569 2.02834C10.4482 0.833415 8.7291 0.189061 6.95736 0.229318C5.18562 0.269575 3.49761 0.991344 2.24448 2.24448C0.991344 3.49761 0.269575 5.18562 0.229318 6.95736C0.189061 8.7291 0.833415 10.4482 2.02834 11.7569C3.22326 13.0657 4.87675 13.8634 6.64483 13.9841C8.41291 14.1047 10.1595 13.5391 11.5211 12.4049L16.2411 17.1249L17.1249 16.2411ZM1.49989 7.12489C1.49989 6.01237 1.82979 4.92483 2.44787 3.99981C3.06596 3.07478 3.94446 2.35381 4.97229 1.92807C6.00013 1.50232 7.13113 1.39093 8.22227 1.60797C9.31341 1.82501 10.3157 2.36074 11.1024 3.14741C11.889 3.93408 12.4248 4.93636 12.6418 6.02751C12.8588 7.11865 12.7475 8.24965 12.3217 9.27748C11.896 10.3053 11.175 11.1838 10.25 11.8019C9.32495 12.42 8.23741 12.7499 7.12489 12.7499C5.63355 12.7482 4.20377 12.1551 3.14924 11.1005C2.09471 10.046 1.50154 8.61622 1.49989 7.12489Z"
+                                                        fill="black" />
+                                                </svg>
+                                            </div>
+                                            <div class="search-text">
+                                                Vermont
+                                            </div>
+                                            
+                                        </div>
+                                        <div class="search-item-close">
+                                            <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M14 1.41L12.59 0L7 5.59L1.41 0L0 1.41L5.59 7L0 12.59L1.41 14L7 8.41L12.59 14L14 12.59L8.41 7L14 1.41Z"
+                                                    fill="#2B2B2B" />
+                                            </svg>
+
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="search-item">
+                                            <div class="icon">
+                                                <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M17.1249 16.2411L12.4049 11.5211C13.5391 10.1595 14.1047 8.41291 13.9841 6.64483C13.8634 4.87675 13.0657 3.22326 11.7569 2.02834C10.4482 0.833415 8.7291 0.189061 6.95736 0.229318C5.18562 0.269575 3.49761 0.991344 2.24448 2.24448C0.991344 3.49761 0.269575 5.18562 0.229318 6.95736C0.189061 8.7291 0.833415 10.4482 2.02834 11.7569C3.22326 13.0657 4.87675 13.8634 6.64483 13.9841C8.41291 14.1047 10.1595 13.5391 11.5211 12.4049L16.2411 17.1249L17.1249 16.2411ZM1.49989 7.12489C1.49989 6.01237 1.82979 4.92483 2.44787 3.99981C3.06596 3.07478 3.94446 2.35381 4.97229 1.92807C6.00013 1.50232 7.13113 1.39093 8.22227 1.60797C9.31341 1.82501 10.3157 2.36074 11.1024 3.14741C11.889 3.93408 12.4248 4.93636 12.6418 6.02751C12.8588 7.11865 12.7475 8.24965 12.3217 9.27748C11.896 10.3053 11.175 11.1838 10.25 11.8019C9.32495 12.42 8.23741 12.7499 7.12489 12.7499C5.63355 12.7482 4.20377 12.1551 3.14924 11.1005C2.09471 10.046 1.50154 8.61622 1.49989 7.12489Z"
+                                                        fill="black" />
+                                                </svg>
+                                            </div>
+                                            <div class="search-text">
+                                                Grand Canyon
+                                            </div>
+                                            
+                                        </div>
+                                        <div class="search-item-close">
+                                            <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M14 1.41L12.59 0L7 5.59L1.41 0L0 1.41L5.59 7L0 12.59L1.41 14L7 8.41L12.59 14L14 12.59L8.41 7L14 1.41Z"
+                                                    fill="#2B2B2B" />
+                                            </svg>
+
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="search-item">
+                                            <div class="icon">
+                                                <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M17.1249 16.2411L12.4049 11.5211C13.5391 10.1595 14.1047 8.41291 13.9841 6.64483C13.8634 4.87675 13.0657 3.22326 11.7569 2.02834C10.4482 0.833415 8.7291 0.189061 6.95736 0.229318C5.18562 0.269575 3.49761 0.991344 2.24448 2.24448C0.991344 3.49761 0.269575 5.18562 0.229318 6.95736C0.189061 8.7291 0.833415 10.4482 2.02834 11.7569C3.22326 13.0657 4.87675 13.8634 6.64483 13.9841C8.41291 14.1047 10.1595 13.5391 11.5211 12.4049L16.2411 17.1249L17.1249 16.2411ZM1.49989 7.12489C1.49989 6.01237 1.82979 4.92483 2.44787 3.99981C3.06596 3.07478 3.94446 2.35381 4.97229 1.92807C6.00013 1.50232 7.13113 1.39093 8.22227 1.60797C9.31341 1.82501 10.3157 2.36074 11.1024 3.14741C11.889 3.93408 12.4248 4.93636 12.6418 6.02751C12.8588 7.11865 12.7475 8.24965 12.3217 9.27748C11.896 10.3053 11.175 11.1838 10.25 11.8019C9.32495 12.42 8.23741 12.7499 7.12489 12.7499C5.63355 12.7482 4.20377 12.1551 3.14924 11.1005C2.09471 10.046 1.50154 8.61622 1.49989 7.12489Z"
+                                                        fill="black" />
+                                                </svg>
+                                            </div>
+                                            <div class="search-text">
+                                                Lake Huron
+                                            </div>
+                                            
+                                        </div>
+                                        <div class="search-item-close">
+                                            <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M14 1.41L12.59 0L7 5.59L1.41 0L0 1.41L5.59 7L0 12.59L1.41 14L7 8.41L12.59 14L14 12.59L8.41 7L14 1.41Z"
+                                                    fill="#2B2B2B" />
+                                            </svg>
+
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+        </div>
+    </header>
+<div id="article-inner">
+    <section class="top ">
+        <div class="container pt-3 pt-lg-4 pb-0">
+            <div class="row">
+                <div class="article__head">
+                    <div class="badge badge-category">Popular</div>
+                </div>
+                <h1 class="article mt-2 mt-lg-3 mb-0">New Minimalist Outdoor Furniture Launches for 2024</h1>
+                <div class="d-flex mt-4 mt-lg-3">
+                    <div class="author mt-0">
+                        <div class="author__avatar">
+                            <img src="./img/avatar.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="d-md-flex">
+                            <div class="author__name">
+                                Jenny kiaa
+                            </div>
+                            <div class="author__divider mx-3 d-none d-md-block">
+                                <svg width="1" height="17" viewBox="0 0 1 17" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <line x1="0.25" y1="0.5" x2="0.249999" y2="16.5" stroke="#999999"
+                                        stroke-width="0.5" />
+                                </svg>
+
+                            </div>
+                            <div class="author__date">
+                                02 december 2022
+                            </div>
+                        </div>
+                        <!-- <div class="author__divider d-none d-md-block mx-3">
+                                <svg width="1" height="17" viewBox="0 0 1 17" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <line x1="0.25" y1="0.5" x2="0.249999" y2="16.5" stroke="#999999"
+                                        stroke-width="0.5" />
+                                </svg>
+
+                            </div>
+                            <div class="author__date text-gray">
+                                02 december 2022
+                            </div>
+                        </div>
+                        <div class="h-divider mx-md-3">
+                            <svg width="16" height="1" viewBox="0 0 16 1" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <line x1="1.05367e-08" y1="0.75" x2="16" y2="0.75" stroke="#999999"
+                                    stroke-width="0.5" />
+                            </svg>
+                        </div>
+                        <div class="social-icons d-flex gap-3">
+                            <a href="#">
+                                <img src="./img/fb-icon.svg" alt="">
+                            </a>
+                            <a href="#">
+                                <img src="./img/insta-icon.svg" alt="">
+                            </a>
+                            <a href="#">
+                                <img src="./img/twitter-icon.svg" alt="">
+                            </a>
+                            <a href="#">
+                                <img src="./img/pinterest-icon.svg" alt="">
+                            </a>
+                        </div> -->
+
+                    </div>
+                </div>
+            </div>
+            <div class="top row">
+                <div class="top-img mt-4">
+                    <img src="./img/article-full.png" alt="" class="w-100">
+                </div>
+                <div class="image_desc text-gray fst-italic mt-4 mt-lg-3 pb-lg-3 pb-2">
+                    We review everything independently. If you make a purchase through our links, we may earn a
+                    commission.
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <div class="container p-0 mt-40">
+        <div class="row">
+
+            <div class="col-lg-9 ">
+                <article>
+                    <div class="article__content">
+                        <div class="article-block">
+                            <h3>Overview</h3>
+                            <p>
+                                A quality mattress is paramount in addressing upper and lower back pain. Conversely, an
+                                unsuitable mattress can initiate or worsen these discomforts, which is significant given
+                                the 7-9 hours typically spent in bed each night. When selecting the best mattress for
+                                alleviating back pain, there are four essential factors to consider: comfort, pressure
+                                point relief, spinal alignment, and robust support.
+                            </p>
+                        </div>
+                        <div class="article-block">
+                            <h3>In this Article</h3>
+                            <ul class="toc">
+                                <li class=""><span>Product 1: </span><a href="#"
+                                        class=" text-pink fw-semibold ms-1">Sofa 1</a></li>
+                                <li class=""><span>Product 1: </span><a href="#"
+                                        class=" text-pink fw-semibold ms-1">Sofa 2</a></li>
+                                <li class=""><span>Product 1: </span><a href="#"
+                                        class=" text-pink fw-semibold ms-1">Sofa 3</a></li>
+                            </ul>
+                        </div>
+                        <div class="article-block">
+                            <h3>Product 1</h3>
+                            <p class="">A quality sofa is paramount in addressing upper and lower back pain. Conversely,
+                                an unsuitable mattress can initiate or worsen these discomforts, which is significant
+                                given the 7-9 hours typically spent in bed each night. When selecting the best mattress
+                                for alleviating back pain, there are four essential factors to consider: comfort,
+                                pressure point relief, spinal alignment, and robust support.</p>
+                            <div class="parameters d-none d-lg-block bg-grey px-4 py-3 mt-3">
+                                <ul class="p-0 fw-semibold m-0">
+                                    <li><span>Effectiveness:</span> <span class="text-green-base">97%</span></li>
+                                    <li><span>Safety: </span> <span class="text-green-base">100%</span></li>
+                                    <li><span>Price:</span> <span class="text-green-base">$$</span></li>
+                                    <li><span>Overall Rating:</span> <span class="text-green-base">A+</span></li>
+                                </ul>
+                            </div>
+                            <div class="img-wrapper mt-3 has__ribbon">
+                                <img src="./img/article-product1.png" alt="" class="w-100">
+                                <div class="ribbon ribbon-green">best deal</div>
+                            </div>
+                            <div class=" d-flex align-items-center flex-column">
+                                <a href="" class="cta">From 419$ at Dreamcloud <span class="ms-2"><svg width="13"
+                                            height="13" viewBox="0 0 13 13" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M5.57031 1.58203L6.17188 0.980469C6.44531 0.734375 6.85547 0.734375 7.10156 0.980469L12.4336 6.28516C12.6797 6.55859 12.6797 6.96875 12.4336 7.21484L7.10156 12.5469C6.85547 12.793 6.44531 12.793 6.17188 12.5469L5.57031 11.9453C5.32422 11.6719 5.32422 11.2617 5.57031 10.9883L8.87891 7.84375H1.03125C0.648438 7.84375 0.375 7.57031 0.375 7.1875V6.3125C0.375 5.95703 0.648438 5.65625 1.03125 5.65625H8.87891L5.57031 2.53906C5.32422 2.26562 5.29688 1.85547 5.57031 1.58203Z"
+                                                fill="white" />
+                                        </svg>
+                                    </span></a>
+                            </div>
+                            <div class="banner">
+                                <picture>
+                                    <source srcset="./img/banners/banner-300_50.png" media="(max-width: 575px)" type="image/png">
+                                    <img class="leaderboard" src="./img/banners/banner-728_90.png" alt="">
+                                </picture>
+                            </div>
+
+                        </div>
+                        <div class="article-block">
+                            <h3>Product 2</h3>
+                            <p class="">A quality sofa is paramount in addressing upper and lower back pain. Conversely,
+                                an unsuitable mattress can initiate or worsen these discomforts, which is significant
+                                given the 7-9 hours typically spent in bed each night. When selecting the best mattress
+                                for alleviating back pain, there are four essential factors to consider: comfort,
+                                pressure point relief, spinal alignment, and robust support.</p>
+                            <div class="parameters d-none d-lg-block bg-grey px-4 py-3 mt-3">
+                                <ul class="p-0 fw-semibold m-0">
+                                    <li><span>Effectiveness:</span> <span class="text-green-base">97%</span></li>
+                                    <li><span>Safety: </span> <span class="text-green-base">100%</span></li>
+                                    <li><span>Price:</span> <span class="text-green-base">$$</span></li>
+                                    <li><span>Overall Rating:</span> <span class="text-green-base">A+</span></li>
+                                </ul>
+                            </div>
+                            <div class="img-wrapper mt-3 has__ribbon">
+                                <img src="./img/article-product2.png" alt="" class="w-100">
+                                <div class="ribbon ribbon-red">sale</div>
+                            </div>
+                            <div class=" d-flex align-items-center flex-column">
+                                <p class="mt-3">A quality sofa is paramount in addressing upper and lower back pain.
+                                    Conversely, an unsuitable mattress can initiate or worsen these discomforts, which
+                                    is significant given the 7-9 hours typically spent in bed each night. When selecting
+                                    the best mattress for alleviating back pain, there are four essential factors to
+                                    consider: comfort, pressure point relief, spinal alignment, and robust support.</p>
+                                <a href="" class="cta">From 419$ at Dreamcloud <span class="ms-2"><svg width="13"
+                                            height="13" viewBox="0 0 13 13" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M5.57031 1.58203L6.17188 0.980469C6.44531 0.734375 6.85547 0.734375 7.10156 0.980469L12.4336 6.28516C12.6797 6.55859 12.6797 6.96875 12.4336 7.21484L7.10156 12.5469C6.85547 12.793 6.44531 12.793 6.17188 12.5469L5.57031 11.9453C5.32422 11.6719 5.32422 11.2617 5.57031 10.9883L8.87891 7.84375H1.03125C0.648438 7.84375 0.375 7.57031 0.375 7.1875V6.3125C0.375 5.95703 0.648438 5.65625 1.03125 5.65625H8.87891L5.57031 2.53906C5.32422 2.26562 5.29688 1.85547 5.57031 1.58203Z"
+                                                fill="white" />
+                                        </svg>
+                                    </span></a>
+                            </div>
+                            <div class="banner">
+                                <picture>
+                                    <img class="large-rect" src="./img/banners/banner-336_280.png" alt="">
+                                </picture>
+                            </div>
+                        </div>
+                        <div class="article-block">
+                            <h3>Product 3</h3>
+                            <p class="">A quality sofa is paramount in addressing upper and lower back pain. Conversely,
+                                an unsuitable mattress can initiate or worsen these discomforts, which is significant
+                                given the 7-9 hours typically spent in bed each night. When selecting the best mattress
+                                for alleviating back pain, there are four essential factors to consider: comfort,
+                                pressure point relief, spinal alignment, and robust support.</p>
+                            <div class="parameters d-none d-lg-block bg-grey px-4 py-3 mt-3">
+                                <ul class="p-0 fw-semibold m-0">
+                                    <li><span>Effectiveness:</span> <span class="text-green-base">97%</span></li>
+                                    <li><span>Safety: </span> <span class="text-green-base">100%</span></li>
+                                    <li><span>Price:</span> <span class="text-green-base">$$</span></li>
+                                    <li><span>Overall Rating:</span> <span class="text-green-base">A+</span></li>
+                                </ul>
+                            </div>
+
+                            <div class="img-wrapper mt-3 position-relative has__ribbon">
+
+                                <img src="./img/article-product3.png" alt="" class="w-100">
+                                <div class="ribbon ribbon-yellow">yellow</div>
+                                <div class="amazon-badge">
+                                    via Amazon
+                                </div>
+
+                            </div>
+                            <div class=" d-flex align-items-center flex-column">
+                                <a href="" class="cta">View on AMAZON</a>
+                            </div>
+                            <div class="banner">
+                                <picture>
+                                    <img class="" src="./img/banners/banner-300_250.png" alt="">
+                                </picture>
+                            </div>
+                        </div>
+                        <div class="article-block">
+                            <h3>Product 3</h3>
+                            <p class="">A quality sofa is paramount in addressing upper and lower back pain. Conversely,
+                                an unsuitable mattress can initiate or worsen these discomforts, which is significant
+                                given the 7-9 hours typically spent in bed each night. When selecting the best mattress
+                                for alleviating back pain, there are four essential factors to consider: comfort,
+                                pressure point relief, spinal alignment, and robust support.</p>
+                            <div class="parameters d-none d-lg-block bg-grey px-4 py-3 mt-3">
+                                <ul class="p-0 fw-semibold m-0">
+                                    <li><span>Effectiveness:</span> <span class="text-green-base">97%</span></li>
+                                    <li><span>Safety: </span> <span class="text-green-base">100%</span></li>
+                                    <li><span>Price:</span> <span class="text-green-base">$$</span></li>
+                                    <li><span>Overall Rating:</span> <span class="text-green-base">A+</span></li>
+                                </ul>
+                            </div>
+
+                            <div class="img-wrapper mt-3 position-relative has__ribbon">
+
+                                <img src="./img/article-product3.png" alt="" class="w-100">
+                                <div class="ribbon ribbon-black">black</div>
+
+                            </div>
+  
+
+                        </div>
+                        <div class="just-for-you">
+                            <span class="text-uppercase fw-semibold">JUST FOR YOU:</span>
+                            <a href="#" class="text-decoration-underline text-pink fw-semibold ms-1">Get FREE SHIPPING
+                                on all orders $79+ and 17% off OneSkin when you subscribe. Try it risk-free with a 45
+                                day money back guarantee. Follow this link to shop!</a>
+
+
+
+                        </div>
+                        <a href="" class="cta cta-black">Shop Dreamcloud Now <span class="ms-2">
+                                <svg width="13" height="13" viewBox="0 0 13 13" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M5.57031 1.58203L6.17188 0.980469C6.44531 0.734375 6.85547 0.734375 7.10156 0.980469L12.4336 6.28516C12.6797 6.55859 12.6797 6.96875 12.4336 7.21484L7.10156 12.5469C6.85547 12.793 6.44531 12.793 6.17188 12.5469L5.57031 11.9453C5.32422 11.6719 5.32422 11.2617 5.57031 10.9883L8.87891 7.84375H1.03125C0.648438 7.84375 0.375 7.57031 0.375 7.1875V6.3125C0.375 5.95703 0.648438 5.65625 1.03125 5.65625H8.87891L5.57031 2.53906C5.32422 2.26562 5.29688 1.85547 5.57031 1.58203Z"
+                                        fill="white" />
+                                </svg>
+
+                            </span>
+                        </a>
+                        <div class="offer">
+                            <div class="row g-0 p-lg-4 p-3 py-0">
+                                <a href="#">
+                                    <div class="offer__badge">
+                                        Get Out of $30,000 or More of Credit Card Debt
+                                    </div>
+                                </a>
+                               
+                                <div
+                                    class="col-xl-5 align-items-center justify-content-center d-flex flex-column gap-50">
+                                    <a href="#">
+                                        <div class="offer__logo">
+                                            <img src="./img/offer-logo.png" alt="">
+                                        </div>
+                                    </a>
+                                   
+                                    <a href="#"
+                                        class="visit-link fw-semibold text-green-base d-none d-xl-flex align-items-center justify-content-center">Visit
+                                        Dreamcloud Now <span class="ms-2"><svg width="29" height="30"
+                                                viewBox="0 0 29 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M9 10L13 14.6667L9 19.3333" stroke="#00AAA1" stroke-width="1.5"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                                <path d="M15 10L19 14.6667L15 19.3333" stroke="#00AAA1"
+                                                    stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </span></a>
+                                </div>
+                                <div class="col-xl-7 d-flex justify-content-center">
+                                    <div class="offer__text">
+                                        <h4>National Debt Relief Benefits</h4>
+                                        <ul>
+                                            <li>Lorem ipsum dolor sit amet cosectur sit amet.</li>
+                                            <li>Lorem ipsum dolor sit amet cosectur sit amet.</li>
+                                            <li>Lorem ipsum dolor sit amet cosectur sit amet.</li>
+                                        </ul>
+                                        <a href="#"
+                                            class="fw-semibold text-green-base d-flex d-xl-none align-items-center justify-content-center mt-4">Visit
+                                            Dreamcloud Now <span class="ms-2"><svg width="29" height="30"
+                                                    viewBox="0 0 29 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M9 10L13 14.6667L9 19.3333" stroke="#00AAA1"
+                                                        stroke-width="1.5" stroke-linecap="round"
+                                                        stroke-linejoin="round" />
+                                                    <path d="M15 10L19 14.6667L15 19.3333" stroke="#00AAA1"
+                                                        stroke-width="1.5" stroke-linecap="round"
+                                                        stroke-linejoin="round" />
+                                                </svg>
+                                            </span></a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </article>
+            </div>
+
+
+            <div class="col-lg-3 ">
+                <aside class="h-100" id="rightPanel">
+                    <div class="banner banner__aside">
+                        <picture>
+                            <img class="" src="./img/banners/banner-160_600.png" alt="">
+                        </picture>
+                    </div>
+                    <div class="banner banner__aside">
+                        <picture>
+                            <img class="" src="./img/banners/banner-300_250.png" alt="">
+                        </picture>
+                    </div>
+                    
+                    <div class="article__aside-block">
+                        <h2>Related Articles</h2>
+                        <div class="trends-v__wrapper mt-40 mt-mob-24">
+    <div class="trends-v__item mt-40 mt-mob-24">
+
+        <a href="#">
+            <div class="relative">
+                <img src="./img/trends-img.png" alt="" class="w-100">
+            </div>
+        </a>
+
+        <div class="badge badge-category mt-4 mt-lg-3">Renovation</div>
+        <div class="mt-2">
+            <a href="#">
+                <h4>Meet the kitchen appliance chameleons that adapt.</h4>
+            </a>
+        </div>
+    </div>
+    <div class="trends-v__item mt-40">
+        <a href="#">
+            <div class="relative">
+                <img src="./img/trends-img.png" alt="" class="w-100">
+            </div>
+        </a>
+
+        <div class="badge badge-category mt-4 mt-lg-3">Renovation</div>
+        <div class="mt-2">
+            <a href="#">
+                <h4>Meet the kitchen appliance chameleons that adapt.</h4>
+            </a>
+
+        </div>
+    </div>
+</div>
+                    </div>
+                    <div class="banner banner__aside">
+                        <picture>
+                            <img class="" src="./img/banners/banner-160_600.png" alt="">
+                        </picture>
+                    </div>
+                    <div class="banner banner__aside">
+                        <picture>
+                            <img class="" src="./img/banners/banner-300_250.png" alt="">
+                        </picture>
+                    </div>
+                    <div class="article__aside-block">
+                        <h2>Trends</h2>
+                        <div class="trends-v__wrapper mt-40 mt-mob-24">
+    <div class="trends-v__item mt-40 mt-mob-24">
+
+        <a href="#">
+            <div class="relative">
+                <img src="./img/trends-img.png" alt="" class="w-100">
+            </div>
+        </a>
+
+        <div class="badge badge-category mt-4 mt-lg-3">Renovation</div>
+        <div class="mt-2">
+            <a href="#">
+                <h4>Meet the kitchen appliance chameleons that adapt.</h4>
+            </a>
+        </div>
+    </div>
+    <div class="trends-v__item mt-40">
+        <a href="#">
+            <div class="relative">
+                <img src="./img/trends-img.png" alt="" class="w-100">
+            </div>
+        </a>
+
+        <div class="badge badge-category mt-4 mt-lg-3">Renovation</div>
+        <div class="mt-2">
+            <a href="#">
+                <h4>Meet the kitchen appliance chameleons that adapt.</h4>
+            </a>
+
+        </div>
+    </div>
+</div>
+                    </div>
+
+                    
+
+                </aside>
+            </div>
+
+        </div>
+    </div>
+    
+</div>
+<footer>
+    <div class="container">
+        <div class="row justify-content-between footer-nav m-0">
+            <div class="col-lg-3">
+                <div class="logo d-flex flex-column white align-items-center align-items-lg-start">
+        <a href="index.html">
+            <div class="logo_title">Homely Elegance</div>
+            <div class="logo_subtitle">&nbsp;magazine</div>
+        </a>
+</div>
+
+            </div>
+            <div class="col-lg-9">
+                <nav>
+                    <ul>
+                        <li><a href="about.html">About us</a></li>
+                        <li><a href="">PRIVACY POLICY</a></li>
+                        <li><a href="contacts.html">CONTACT US</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="copyright text-white">Copyright © 2024 All rights reserved</div>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js
+"></script>
+<script src="./js/jquery.min.js"></script>
+<script src="./js/splide.js"></script>
+<script src="./js/script.min.js"></script>
