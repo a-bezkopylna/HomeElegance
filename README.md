@@ -1,6 +1,6 @@
 # Homely Elegance – Interior Design Magazine Website
 
-**Live Demo:** [https://pelzoxana.github.io/HomeElegance//](https://a-bezkopylna/.github.io/HomeElegance/)
+**Live Demo:** [https://a-bezkopylna/.github.io/HomeElegance//](https://a-bezkopylna/.github.io/HomeElegance/)
 
 ---
 
